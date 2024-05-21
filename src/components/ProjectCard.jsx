@@ -18,7 +18,7 @@ const ProjectCard = ({project}) => {
             <Image borderRadius={12} src={project.image_background} alt={project.name}/>
           </Box>
 
-          <Text>{project.description}</Text>
+          <Text paddingX={2}>{project.description}</Text>
           
         </VStack>
     </Box>

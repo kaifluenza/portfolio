@@ -3,8 +3,8 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <Box paddingY={12}>
-        <Heading color="pink.500" as="h1" fontSize="6xl">Hi. I'm Wanrueni.</Heading>
+    <Box color="pink.500" paddingY={12}>
+        <Heading fontSize="6xl">Hi. I'm Wanrueni.</Heading>
         <Text fontSize="2xl">A Front-End Developer</Text>
     </Box>
   )
