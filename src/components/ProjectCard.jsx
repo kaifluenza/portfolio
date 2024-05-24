@@ -18,7 +18,7 @@ const ProjectCard = ({project}) => {
             <Link href={project.link} isExternal>{project.name}</Link>
           </Text>
       
-          <Box paddingX={hover? 6: 8}>
+          <Box paddingX={hover? 7: 8}>
             <Image borderRadius={12} src={project.image_background} alt={project.name}/>
           </Box>
 

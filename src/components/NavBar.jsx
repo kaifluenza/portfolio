@@ -1,12 +1,12 @@
 import { HStack , Link } from '@chakra-ui/react'
-import React from 'react'
+import { Link as RouterLink } from 'react-router-dom'
 
 const NavBar = () => {
   return (
     <HStack gap="40px" justifyContent="center">
-        <Link href='../pages/Projects.jsx'>Projects</Link>
-        <Link href='../pages/About.jsx'>About</Link>
-        <Link href='../pages/Contact.jsx'>Contact</Link>
+        <Link as={RouterLink} to="/">Projects</Link>
+        <Link as={RouterLink} to="/about">About</Link>
+        <Link as={RouterLink} to="/contact">Contact</Link>
     </HStack>
   )
 }
