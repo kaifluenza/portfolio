@@ -8,7 +8,12 @@ const Footer = () => {
     return (
         <Box marginTop={10}>
             <HStack paddingY={10} justify="space-around">
-                <Link><DownloadIcon/> Download Resume</Link>
+                <Link
+                href={`${process.env.PUBLIC_URL}/Resume0524.pdf`}
+                download="wanruenik-resume.pdf"
+                >
+                    <DownloadIcon/> Download Resume
+                </Link>
                 <HStack>
                     <FaGithub />
                     <Link href='https://github.com/kaifluenza' isExternal>Github</Link>
