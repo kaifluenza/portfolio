@@ -7,15 +7,13 @@ const Contact = () => {
     <Box minH="100vh" display="flex" flexDirection="column">
       <Heading fontSize="5xl" color="pink.500" paddingY="80px">Get In Touch With Me</Heading>
       <HStack justify="center" gap={6}>
-        <VStack spacing={6}>
-          <MdEmail size="26px"/>
-          <FaPhoneSquare size="23px"/>
-          <FaLinkedin size="24px"/>
+        <VStack spacing={8}>
+          <MdEmail size="30px"/>
+          <FaLinkedin size="28px"/>
         </VStack>
 
-        <VStack align="flex-start" spacing={6}>
+        <VStack align="flex-start" spacing={8} fontSize={18}>
           <Text>wanrueni.12@gmail.com</Text>
-          <Text>(786) 572-4020</Text>
           <Link href="https://www.linkedin.com/in/wanruenik/" isExternal>www.linkedin.com/in/wanruenik</Link>
         </VStack>
 

@@ -41,12 +41,13 @@ const About = () => {
             <GridItem
             area="main"
             textAlign="left"
-            maxW={{ base: "100%", lg: "75%" }}
+            maxW={{ base: "100%", lg: "80%" }}
             display="flex"
             flexDirection="column"
             justifyContent="center"
             alignItems="center"
             padding={{base:"30px",lg:"0px"}}
+            fontSize={18}
             >
         
                 <Box margin={2}>
