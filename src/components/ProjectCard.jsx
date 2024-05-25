@@ -1,6 +1,6 @@
-import { Image, Box, Text, Link, Button, VStack, Heading } from '@chakra-ui/react'
+import { Image, Box, Text, Link, Button, VStack, Heading, HStack } from '@chakra-ui/react'
 import { useState } from 'react';
-
+import { ExternalLinkIcon } from '@chakra-ui/icons';
 
 const ProjectCard = ({project}) => {
   const [hover, setHover] = useState(false);
@@ -15,7 +15,10 @@ const ProjectCard = ({project}) => {
     >
         <VStack spacing={4} h="100%" justifyContent="space-between" paddingY={4}>
           <Text fontSize={hover? "3xl" : "2xl"} fontWeight="bold">
-            <Link href={project.link} isExternal>{project.name}</Link>
+            <HStack>
+              <Link href={project.link} isExternal>{project.name}</Link>
+              <ExternalLinkIcon/>
+            </HStack>
           </Text>
       
           <Box paddingX={hover? 7: 8}>
