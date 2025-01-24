@@ -51,13 +51,13 @@ const About = () => {
             >
         
                 <Box margin={2}>
-                    I am a front-end web deveoper who is passionate about learning. In my journey, there is always something exciting to learn, room to improve, and grow. I am fueled with passion and perseverance, and I am thrilled to express it here.
+                    I am a front-end web deveoper who is passionate about learning. I love finding something exciting to learn, to improve, and grow. I am fueled with passion and perseverance, and I am thrilled to express my achievements here with you.
                 </Box>
                 <Box margin={2}>
-                    Nowadays, I am experimenting with mobile development. One of the applications I am working on will provide efficient solutions to restaurant management's inventory common problems. I can't wait to share it soon!
+                    Nowadays, I am enjoying working on mobile development. One of the applications I am working on will provide efficient solutions to restaurant's inventory management common problems. I draw upon my experiences as a server at Platu Miami, the restaurant I worked at, to streamline server-manager communication to optimize the process of efficient inventory management. It is still a work in progress, and I plan to add more features to it along the way.
                 </Box>
                 <Box margin={2}>
-                    Outside of programming, I am a bit of a bibliophile. I love experiencing new exciting worlds through various fascinating point-of-views. My favorite title to date is Catch And Release by Isabel Murray. I also love exploring the (physical) world, appreciating the beauty of nature.
+                    Outside of programming, I am a bit of a bibliophile. I love experiencing new exciting worlds through various fascinating point-of-views. My favorite title to date is Catch And Release by Isabel Murray. I also love traveling and exploring our incredibly vast and beautiful world, appreciating the beauty of nature and various cultures. My favorite place to date is Seoul, South Korea, aside from Thailand, my home country, of course.
                 </Box>
         
         
