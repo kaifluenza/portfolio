@@ -22,7 +22,7 @@ const Footer = () => {
 
             <HStack justify="center">
                 <AiOutlineCopyrightCircle/>
-                <Text fontSize="xl"> 2024 Wanrueni Khuantang</Text>
+                <Text fontSize="xl"> 2025 Wanrueni Khuantang</Text>
             </HStack>
         </Box>
       )
