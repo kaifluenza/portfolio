@@ -1,5 +1,5 @@
 import { Grid,GridItem, Box, Heading, Image, Text, HStack, VStack, Card, CardBody, CardFooter, SimpleGrid } from '@chakra-ui/react'
-import myPic from "../assets/kai.webp"
+import myPic from "../assets/IMG_8699.webp";
 import { SiApplemusic } from "react-icons/si";
 const About = () => {
   return (

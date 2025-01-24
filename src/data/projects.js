@@ -2,6 +2,7 @@ import pic1 from "../assets/game-hub-pic.webp";
 import pic2 from "../assets/etchasketch-pic.webp";
 import pic3 from "../assets/calculator-pic.webp";
 import pic4 from "../assets/resumeup-pic.webp";
+import pic5 from "../assets/screenshot1.webp";
 
 export default [
     {
@@ -31,5 +32,13 @@ export default [
         "description":"An intuitive desktop application that simplifies the resume creation process for beginners.",
         "image_background":pic4,
         "link":"https://github.com/kaifluenza/ResumeUp"
+    },
+    {
+        "id":5,
+        "name": "Platu Pro (In Progress)",
+        "description":"A custom inventory management app in React Native that streamlines server-manager communication by enabling real-time low-stock alerts and requests, with a dashboard for managers to prioritize restocking by supplier and urgency.",
+        "image_background":pic5,
+        "link":"https://github.com/kaifluenza/PlatuPro"
     }
+
 ]
