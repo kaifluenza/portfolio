@@ -2,7 +2,7 @@ import pic1 from "../assets/game-hub-pic.webp";
 import pic2 from "../assets/etchasketch-pic.webp";
 import pic3 from "../assets/calculator-pic.webp";
 import pic4 from "../assets/resumeup-pic.webp";
-import pic5 from "../assets/screenshot1.webp";
+import pic5 from "../assets/screenshot1.png";
 
 export default [
     {
