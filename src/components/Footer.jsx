@@ -9,8 +9,8 @@ const Footer = () => {
         <Box marginTop={10}>
             <HStack paddingY={10} justify="space-around">
                 <Link
-                href="/wk-resume-2501.pdf"
-                download="wk-resume-2501.pdf"
+                href="/wk-resume-250207.pdf"
+                download="wk-resume-250207.pdf"
                 >
                     <DownloadIcon/> Download Resume
                 </Link>
