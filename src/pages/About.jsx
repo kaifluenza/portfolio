@@ -1,5 +1,5 @@
 import { Grid,GridItem, Box, Heading, Image, Text, HStack, VStack, Card, CardBody, CardFooter, SimpleGrid } from '@chakra-ui/react'
-import myPic from "../assets/IMG_8699.webp";
+import myPic from "../assets/IMG_7942.webp";
 import { SiApplemusic } from "react-icons/si";
 const About = () => {
   return (
@@ -51,13 +51,13 @@ const About = () => {
             >
         
                 <Box margin={2}>
-                    I am a front-end web deveoper who is passionate about learning. I love finding something exciting to learn, to improve, and grow. I am fueled with passion and perseverance, and I am thrilled to express my achievements here with you.
+                    I'm a Computer Science graduate and developer passionate about building solutions to real problems. I love the process of learning new technologies, shipping projects, and collaborating with others.
                 </Box>
                 <Box margin={2}>
-                    Nowadays, I am enjoying working on mobile development. One of the applications I am working on will provide efficient solutions to restaurant's inventory management common problems. While developing Platu Pro, I drew upon my experiences as a server at Platu Miami, the restaurant I worked at, to streamline server-manager communication to optimize the process of efficient inventory management. It is still a work in progress, and I plan to add more features to it along the way.
+                    Right now, I'm working on StockUp - an iOS app that streamlines inventory management and accounting in one, for real-worold business needs. I've also built GameHub, a video game discovery web app using React, and my portfolio site. 
                 </Box>
                 <Box margin={2}>
-                    Outside of programming, I am a bit of a bibliophile. I love experiencing new exciting worlds through various fascinating point-of-views. My favorite title to date is Catch And Release by Isabel Murray. I also love traveling and exploring our incredibly vast and beautiful world, appreciating the beauty of nature and various cultures. My favorite place to date is Seoul, South Korea, aside from Thailand, my home country, of course.
+                    Outside of code, I'm a total bibliophile! I love getting lost in a good book! Curently reading Conflict of Interest by Zarah Detand. I'm also into traveling and exploring new cultures; Seoul and Bangkok being my most favorites, and Busan is my next stop! I also lift, ice skate, and write songs whenever I can!
                 </Box>
         
         
