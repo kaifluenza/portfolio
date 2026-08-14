@@ -13,7 +13,7 @@ const Contact = () => {
         </VStack>
 
         <VStack align="flex-start" spacing={8} fontSize={18}>
-          <Text>wanrueni.12@gmail.com</Text>
+          <Text>kaiwanrueni@gmail.com</Text>
           <Link href="https://www.linkedin.com/in/wanruenik/" isExternal>www.linkedin.com/in/wanruenik</Link>
         </VStack>
 
