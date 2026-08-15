@@ -7,7 +7,7 @@ const ProjectCard = ({project}) => {
 
   return (
     <Box 
-    borderRadius={30}
+    borderRadius={50}
     bgColor="gray.200" 
     onMouseEnter={() => setHover(true)}
     onMouseLeave={() => setHover(false)}
